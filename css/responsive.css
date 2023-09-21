@@ -3,9 +3,14 @@
 @media (max-width: 992px) {
 
   .hero_area {
-    min-height: auto;
+    min-height: 100vh;
   }
-
+  .banner-title h2{
+    font-size: 1.7rem;
+  }
+  #whatsapp img{
+    width: 100px;
+  }
   .slider_section {
     padding: 75px 0;
   }

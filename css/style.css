@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 @import url("font-awesome.min.css");
 body {
-  font-family: 'Poppins', sans-serif;
-  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(40, 40, 40);
   background-color: #ffffff;
-}
 
+}
+*{
+  box-sizing: border-box;
+}
+.filter-white{
+  background: rgb(255 255 255 / .5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
 p {
   font-family: "Open Sans", sans-serif;
 }
@@ -24,13 +35,40 @@ p {
   padding-top: 45px;
 }
 
-
-
+.fixed-navbar{
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 99999;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.fixed-navbar .navbar-brand img{
+  width: 50px;
+  
+  transition: all .2s ease 0s;
+}
+.navbar{
+  transition: all .2s ease 0s;
+}
+.text-white{
+  color: #d28339 !important;
+}
 .layout_padding-top {
   padding-top: 90px;
 }
 
+.banner-title{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
 
+}
+.banner-title h2{
+  font-weight: bolder;
+  font-size: 2.4rem;
+  text-align: center;
+}
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +121,7 @@ p {
      object-fit: cover;
   -o-object-position: right center;
      object-position: right center;
+  opacity: 1;
 }
 
 .sub_page .hero_area {
@@ -156,7 +195,12 @@ p {
 }
 
 
-
+.navbar-brand img{
+  width: 120px;
+}
+.navbar-nav{
+  font-weight: bold;
+}
 /* 
 
 .navbar-brand span {
@@ -397,16 +441,17 @@ nav>.logo {
 
 .service_section {
   position: relative;
+  margin-top: 40px;
 }
 
 .service_section .box {
-  margin-top: 45px;
+  height: 100%;
   text-align: center;
   background-color: #ffffff;
   padding: 45px 15px;
   border-radius: 15px;
-  -webkit-box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 5px 5px 17px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 5px 5px 17px 0 rgba(0, 0, 0, 0.15);
 }
 
 .service_section .box .img-box {
@@ -497,7 +542,7 @@ nav>.logo {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #55e9bc;
+  color: #e99855;
 }
 
 .about_section .img-box img {
@@ -525,11 +570,11 @@ nav>.logo {
 .care_section .detail-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #55e9bc;
+  background-color: #bd6e24;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #55e9bc;
+  border: 1px solid #b15e00;
   border-radius: 3px;
   text-transform: uppercase;
   margin-top: 15px;
@@ -537,7 +582,7 @@ nav>.logo {
 
 .care_section .detail-box a:hover {
   background-color: transparent;
-  color: #55e9bc;
+  color: #9e5d07;
 }
 
 .client_section {
@@ -568,7 +613,7 @@ nav>.logo {
   background: rgba(255, 255, 255, 0.75);
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #55e9bc;
+  color: #bb6016;
   color: #000000;
   background-color: #ffffff;
   color: #000000;
@@ -583,7 +628,7 @@ nav>.logo {
 .client_section .box .img-box img {
   width: 100%;
   border-radius: 100%;
-  border: 5px solid #55e9bc;
+  border: 5px solid #a74005;
 }
 
 .client_section .box .detail-box {
@@ -610,7 +655,7 @@ nav>.logo {
   text-transform: none;
   font-size: 16px;
   font-weight: normal;
-  color: #537780;
+  color: #e65d0e;
 }
 
 .client_section .box .detail-box p {
@@ -638,7 +683,7 @@ nav>.logo {
   width: 50px;
   height: 30px;
   border-radius: 5px;
-  background-color: #55e9bc;
+  background-color: #92400a;
   outline: none;
   color: #ffffff;
   font-size: 14px;
@@ -697,11 +742,11 @@ nav>.logo {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
   padding: 10px 65px;
-  background-color: #55e9bc;
+  background-color: #ca5c1c;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 2px solid #55e9bc;
+  border: 2px solid #a53d14;
   border-radius: 25px;
   text-transform: uppercase;
   color: #fff;
@@ -710,7 +755,7 @@ nav>.logo {
 
 .contact_section .form_container button:hover {
   background-color: transparent;
-  color: #55e9bc;
+  color: #a75f24;
 }
 
 .contact_section .map_container {
@@ -729,7 +774,7 @@ nav>.logo {
 
 .info_section {
   position: relative;
-  background-color: #537780;
+  background-color: #ca5c1c;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
@@ -817,11 +862,11 @@ nav>.logo {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #55e9bc;
-  color: #ffffff;
+  background-color: #1f1b1a;
+  color: #0f0e0d;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #55e9bc;
+  border: 1px solid #181614;
   border-radius: 0;
   text-transform: uppercase;
   margin-top: 15px;
@@ -850,7 +895,12 @@ nav>.logo {
   font-size: 24px;
 }
 
-
+#whatsapp img{
+  width: 120px;
+}
+#whatsapp{
+  text-align: center;
+}
 .footer_section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -866,7 +916,7 @@ nav>.logo {
 }
 
 .footer_section p {
-  color: #1a1b1a;
+  color: #5f635f;
   margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
@@ -875,5 +925,5 @@ nav>.logo {
 }
 
 .footer_section a {
-  color: #1a1b1a;
+  color: #436443;
 }

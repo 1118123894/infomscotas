@@ -4,17 +4,13 @@
      box-sizing: border-box !important;
 }
 
-.container {
-     max-width: 1170px;
-}
-
 html {
      scroll-behavior: smooth;
      overflow-x: hidden;
 }
 
 body {
-     color: #55e9bc;
+     color: #b8681d;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -76,7 +72,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #55e9bc;
+     color: #b8681d;
      text-decoration: none!important;
      opacity: 1
 }
@@ -101,7 +97,7 @@ p {
 }
 
 a {
-     color: #55e9bc;
+     color: #b8681d;
      text-decoration: none;
      outline: none !important;
 }
@@ -160,7 +156,7 @@ div.transparent {
 
 .read_more {
      font-size: 30px;
-     background: #090f0f;
+     background: #b8681d;
      transition: ease-in all 0.5s;
      color: #fff;
      display: block;
@@ -228,7 +224,7 @@ div.transparent {
 
 .header {
      width: 100%;
-     background: #55e9bc;
+     background: #d4b69a;
      height: 97px;
      padding: 14px 0;
 }
@@ -292,7 +288,7 @@ div.transparent {
 }
 
 .copyright a:hover {
-     color: #55a8a8;
+     color: #b8681d;
 }
 
 
@@ -471,7 +467,7 @@ div.transparent {
 }
 
 .template4 .demo_box strong {
-     color: #222328;
+     color: #d9dcec;
      font-size: 111px;
      line-height: 120px;
      padding-bottom: 5px;
@@ -480,7 +476,7 @@ div.transparent {
 }
 
 .template4 .demo_box span {
-     color: #000000;
+     color: #e0cccc;
      font-size: 71px;
      font-weight: bold;
      display: block;
@@ -496,7 +492,7 @@ div.transparent {
 }
 
 .template4 .demo_box h2 {
-     color: #55e9bc(27, 93%, 39%);
+     color: #e9a455(27, 93%, 39%);
      font-weight: bold;
      padding-top: 38px;
      font-size: 150px;
@@ -504,7 +500,7 @@ div.transparent {
 }
 
 .template4 .read_more {
-     background-color: #55e9bc;
+     background-color: #b8681d;
      font-size: 17px;
      max-width: 210px;
      height: 60px;
