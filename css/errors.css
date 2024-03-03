@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+.navbar-brand img {
+  width: 70px;
+}
+body{
+  font-family: 'Montserrat';
+}
+body::before{
+  content: '';
+  background: url('../images/fondo.jpg');
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .2;
+
+  
+}
+.mobile_section{
+  min-height: 100vh;
+}
+.error-container .error-title{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.error-container .error-content > div h3{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.error-container .error-content > div span{
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  color: rgb(40, 40, 40);
+  font-weight: bold;
+}
+.error-container .error-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-container .error-content figure img{
+  width: 120px;
+}
+.error-description p{
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: normal;
+}
+.error-container .button-container{
+  text-align: center;
+}
+.error-container .button-container a{
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 992px){
+  .error-container .error-title{
+    font-size: 3.5rem;
+  }
+  .error-container .error-content > div h3{
+    font-size: 5rem;
+  }
+  .error-container .error-content > div span{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .error-container .error-content figure img{
+    width: 300px;
+  }
+  .error-description p{
+    font-size: 2.2rem;
+  }
+}
+.info_section {
+  position: relative;
+  background-color: #d28238;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.info_section .contact_items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.info_section .contact_items .item .img-box {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #f9f9f9;
+}
+
+.info_section .contact_items .item .detail-box p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.info_section .row > div {
+  margin-top: 25px;
+}
+
+.info_section a {
+  text-transform: none;
+}
+
+.info_section h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.info_section .info_link-box ul {
+  padding-left: 15px;
+}
+
+.info_section .info_link-box ul li.active::before,
+.info_section .info_link-box ul li:hover::before {
+  background-color: #000000;
+}
+
+.info_section .info_link-box ul li {
+  list-style-type: none;
+  position: relative;
+  margin: 10px 0;
+}
+
+.info_section .info_link-box ul li::before {
+  content: "";
+  left: -12px;
+  top: 50%;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: 1.5px solid #ffffff;
+}
+
+.info_section .info_link-box ul li a {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.info_section .info_form form input {
+  outline: none;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+.info_section .info_form form button {
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: #55e9bc;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #55e9bc;
+  border-radius: 0;
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.info_section .info_form form button:hover {
+  background-color: transparent;
+  color: #111413;
+}
+
+.info_section .social_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.info_section .social_box a {
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#whatsapp img{
+  width: 120px;
+}
+#whatsapp{
+  text-align: center;
+}
+.footer_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer_section p {
+  color: #0e6d0e;
+  margin: 0;
+  padding: 25px 0 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer_section a {
+  color: #1a1b1a;
+}

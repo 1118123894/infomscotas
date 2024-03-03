@@ -1,0 +1,168 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Inicio de Sesion</title>
+    <link rel="shorcut icon" href="images/icons8-pet-80.png" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/inicio.css" />
+
+    <link rel="stylesheet" href="css/Registro.css" />
+  </head>
+
+  <body>
+    <div class="contenido vh-100">
+      <header class="header_section transparent">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-0"
+        >
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="./images/logo-removebg-preview.png"
+              class="mr-2"
+              alt="Logo de razaunica"
+            />
+            <span class="">InfoMascotas</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registro</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div
+        id="contenedorcentrado"
+        class="d-flex align-items-center flex-column"
+        style="margin-top: 100px"
+      >
+        <div id="login" class="d-flex flex-column justify-content-center">
+          <div class="titulo">Bienvenido</div>
+          <hr />
+
+          <form id="loginform">
+            <div>
+              <label for="usuario">Usuario</label>
+              <input id="usuario" type="text" name="" required />
+            </div>
+            <div>
+              <label for="password">Contraseña</label>
+              <input id="password" type="password" placeholder="" />
+              <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button type="submit" title="Ingresar" name="Ingresar">
+              Ingresar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <section class="info_section layout_padding2 py-3">
+      <div class="info_container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div id="whatsapp" class="text-center">
+                <a href="#" target="_blank">
+                  <img src="imagenes/icons8-pet-80.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <h6>Direccion</h6>
+              <div class="contact_items">
+                <a href="">
+                  <div class="item">
+                    <div class="img-box">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="detail-box">
+                      <p>kennedy Bogota</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="item">
+                    <div class="img-box">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="detail-box">
+                      <p>Celular 3148055000</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="item">
+                    <div class="img-box">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="detail-box">
+                      <p>razaunica@gmail.com</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="info_form">
+                <h5>Subscribirse</h5>
+                <form action="#">
+                  <input type="email" placeholder="Ingrese su correo" />
+                  
+                  <div class="button-container mt-3">
+                    <a class="read_more" href="index.html">Enviar</a>
+                  </div>
+
+                </form>
+                <div class="social_box">
+                  <a href="./error500.html" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="./error404.html" target="_blank">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  </a>
+
+                  <a href="./dash.html" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

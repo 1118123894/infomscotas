@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Calificacion Del Servicio</title>
+    <!-- stylos para el dash -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/Dashboard.css">
+    <link rel="shortcut icon" href="images/icons8-pet-80.png" type="image/x-icon">
+    
+</head>
+<body>
+    <!-- parametros de grid en el main -->
+    <main>    
+        <!-- parametros del header y el search bar -->
+        <header>
+            <article class="search-container">
+                <a href="">
+                    <img class="search--icon" src="./images/busqueda.png" alt="buscar" title="Buscar">
+                    
+                </a>
+                <input type="search" name="Buscar" placeholder="Buscar producto, cliente, mascota...">
+            </article>
+            
+            <a href="">
+                <img src="images/icons8-alarm-64.png" alt="Notificaciones" title="Notificaciones">
+            </a>
+            <a href="">
+                <img src="images/icons8-group-message-50.png" alt="Mensajes" title="Mensajes">
+            </a>
+            <a href="">
+                <img src="./images/icons8-me-58.png" alt="Usuario" title="Usuario">
+            </a>
+            <a href="./landing.html">
+                <img src="images/icons8-close-sign-80.png" alt="Cerrar sesión" title="Cerrar sesión">
+            </a>
+        </header>
+            <!-- parametros del menu -->
+            <aside>
+            
+                <section class="menu-title">
+                    <img class="menu-logo"src="./images/logo-removebg-preview.png">
+                    <h2>Raza Unica</h2>
+                </section>
+                
+                <ul class="menu-items">
+                    <li>
+                        <a href="./dash.html"><img src="./images/icons8-home-64.png" alt="Clientes">Inicio</a>    
+                               
+                    </li>
+                    <li>
+                        <a href="./empleados.html"><img src="./images/icons8-me-58.png" alt="Empleados">Empleados</a>    
+                               
+                    </li>
+    
+                    <li>
+                        <a href="./Mascotas.html"><img src="./images/icons8-dog-100.png" alt="Lista de Mascotas">Mascotas</a>    
+                               
+                    </li>
+                    <li>
+                        <a href="./clientes.html"><img src="./images/icons8-crowd-50.png" alt="Clientes">Clientes</a>    
+                               
+                    </li>
+                    
+                    <li>
+                        <a href="./productos.html"><img src="./images/icons8-shopping-cart-50.png" alt="Productos">Productos</a>
+                        
+                    </li>
+                    <li>
+                        <a href="./Calificacion del servicio.html"><img src="./images/icons8-rating-60.png" alt="Calificaciones del Servicio">Calificaciones</a>
+                        
+                    </li>
+                    <li>
+                        <a href="./horario.html"><img src="./images/icons8-clock-80.png" alt="Calendario">Horario de Citas</a>
+                        
+                    </li>
+                </ul>
+    
+            </aside>
+        <!-- contenedor central --------------------------------------------------------------->
+        <section class="main-section">
+            <section class="boton-modal">
+                <h2>Calificacion del Servicio</h2>
+                <label for="btn-modal">
+                    Calificar
+                </label>
+                
+            </section>
+            <section class="tabular--wrapper">
+                <h3 class="tabla--title"></h3>
+                <form class="d-flex justify-content-end mb-3">
+
+                    <input class="form-control me-2 w-25 justify-content-end" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                <article class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>FECHA CITA</th>
+                                <th>SERVICIO</th>
+                                <th>EMPLEADO</th>
+                                <th>PUNTUACION</th>
+                                <th></th>
+                                <th></th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01/05/25</td>
+                                <td>Peluqueria</td>
+                                <td>Juan</td>
+                                <td>9</td>
+                                <td><button type="button" class="btn mi-color">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                              
+                                
+                            </tr>
+                            <tr>
+                                <td>01/06/28</td>
+                                <td>Baño</td>
+                                <td>Santiago</td>
+                                <td>10</td>
+                                <td><button type="button" class="btn mi-color">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                              
+                                
+                            </tr>
+                            <tr>
+                                <td>01/09/25</td>
+                                <td>Corte de Uñas</td>
+                                <td>Pedro</td>
+                                <td>9</td>
+                                <td><button type="button" class="btn mi-color">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                              
+                                
+                            </tr>
+                            <tr>
+                                <td>01/05/25</td>
+                                <td>Limpieza de oidos</td>
+                                <td>Katerin</td>
+                                <td>10</td>
+                                <td><button type="button" class="btn mi-color">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                              
+                                
+                            </tr>
+                            <tr>
+                                <td>01/05/25</td>
+                                <td>Deslanado</td>
+                                <td>Lorena</td>
+                                <td>10</td>
+                                <td><button type="button" class="btn mi-color">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                              
+                                
+                            </tr>
+                        </tbody>
+                                                
+                    </table>
+                </article>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination mt-3 d-flex justify-content-end">
+                      <li class="page-item"><a class="page-link text-dark" href="#">Anterior</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#">Siguiente</a></li>
+                    </ul>
+                  </nav>
+                   
+            </section>
+
+        </section>
+
+        <!-- Venta emergente de registro ------------------------------------->
+        <input type="checkbox" id="btn-modal">
+        <article class="container-modal">
+            <span class="content-modal">
+                <h2>PUNTUAR</h2>
+                <form class ="form" action="">
+                    <article class="form-container">
+                        
+                        <article class="form-group">
+                            <input type="text" id="name" class="form__input"  placeholder=" " autocomplete="name" required> 
+                            <label for="name" class="form__label">Nombre del Servicio</label>
+                            <span class="form__line"></span>
+                        </article>
+                        
+                        <article class="form-group">
+                            <input 
+                                class="form__input"
+                                type="date"
+                                name="date"
+                                id="date"
+                                placeholder=" "
+                                autocomplete="on"
+                                required
+                            > 
+                            <label for="date" class="form__label">Fecha </label>
+                            <span class="form__line"></span>
+                        </article>
+                        
+                        
+            
+                        
+                    </article>    
+                                    
+                    </form>
+                <article class="btn-cerrar">
+                    <label for="btn-modal">Guardar</label>
+                    <label for="btn-modal">Cancelar</label>
+                </article>
+            </span>
+            <label for="btn-modal" class="cerrar-modal"></label>
+        </article>
+
+          <!-- footer del dash -->
+          <footer>
+            <ul class="footer-items">
+                <li>
+                    <a href="">Privacidad</a>
+                </li>
+                <li>
+                    <a href="">Condiciones</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
